@@ -31,18 +31,21 @@
 2. **Объединение таблиц и разведовательный анализ**
 
 [EDA part 2](https://github.com/Bjorik23/peskipiksi_pesternomi/blob/main/mipt_hakaton_2024_tinkoff/analysis/eda_part_2_v2.ipynb)
+
 3. **Объединие таблиц в один датасет**
 4. **Обработка полученного датасета**
 5. **Анализ полученного датасета**
 6. **Анализ важности курсов**
 
 [Create models Torch](https://github.com/Bjorik23/peskipiksi_pesternomi/blob/main/mipt_hakaton_2024_tinkoff/create_models/create_models_torch_v1.ipynb)
+
 7. **Объединие таблиц в один датасет**
 8. **Обработка полученного датасета**
 9. **Создание модели с коллаборативной фильтрацией**
 10. **Анализ полученных результатов**
 
 [Create models SVD](https://github.com/Bjorik23/peskipiksi_pesternomi/blob/main/mipt_hakaton_2024_tinkoff/create_models/create_model_svd_v1.ipynb)
+
 11. **Подготовка данных и обучение**
 
 
