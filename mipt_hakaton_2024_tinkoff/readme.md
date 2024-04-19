@@ -26,21 +26,28 @@
 
 ## Разделы проекта
 
-**EDA part 1** 
+[EDA part 1](https://github.com/Bjorik23/peskipiksi_pesternomi/blob/main/mipt_hakaton_2024_tinkoff/analysis/eda_part_1_v2.ipynb)
 1. **Анализ, открытие данных и изучение общей информации по каждой таблице**
 2. **Объединение таблиц и разведовательный анализ**
 
-**EDA part 2**
+[EDA part 2](https://github.com/Bjorik23/peskipiksi_pesternomi/blob/main/mipt_hakaton_2024_tinkoff/analysis/eda_part_2_v2.ipynb)
+
 3. **Объединие таблиц в один датасет**
 4. **Обработка полученного датасета**
 5. **Анализ полученного датасета**
 6. **Анализ важности курсов**
 
-**Create models**
+[Create models Torch](https://github.com/Bjorik23/peskipiksi_pesternomi/blob/main/mipt_hakaton_2024_tinkoff/create_models/create_models_torch_v1.ipynb)
+
 7. **Объединие таблиц в один датасет**
 8. **Обработка полученного датасета**
 9. **Создание модели с коллаборативной фильтрацией**
 10. **Анализ полученных результатов**
+
+[Create models SVD](https://github.com/Bjorik23/peskipiksi_pesternomi/blob/main/mipt_hakaton_2024_tinkoff/create_models/create_model_svd_v1.ipynb)
+
+11. **Подготовка данных и обучение**
+
 
 ## Промежуточные выводы
 
@@ -61,6 +68,8 @@
 - Персонализация: надо попробовать поискать способы улучшения персонализации модели, чтобы удостовериться, что рекомендации соответствуют индивидуальным потребностям и интересам каждого сотрудника.
 
 - Баланс тем: возможно надо стремиться к балансу между фундаментальными навыками и новыми технологиями, чтобы обеспечить сотрудникам комплексное и актуальное образование.
+
+[Промежуточные результаты по рекомендациям](https://github.com/Bjorik23/peskipiksi_pesternomi/blob/main/mipt_hakaton_2024_tinkoff/data/recomendations/top_n_recommendations.csv)
 
 ## Требования
 
@@ -85,31 +94,26 @@ torch
 
 1. Клонирование репозитория:
    ```bash
-   git clone [https://github.com/Bjorik23/mipt_datatons]
+   git clone [https://github.com/Bjorik23/peskipiksi_pesternomi]
    ```
 2. Установите необходимые зависимости:
    ```bash
-   pip install -r requirements.txt
+   pip install -r requirements.txt (ПОКА НЕТУ)
    ```
 3. Запустите Jupyter Notebooks:
     ```bash
-   air_pollution_analysis/analysis.ipynb
+   analysis/eda_part_1_v2.ipynb
    ```
    ```bash
-   air_pollution_analysis/models.ipynb
+   analysis/eda_part_2_v2.ipynb
    ```
-
-## Запуск проекта
-
-1. Установите docker на своем компьютре (дистрибутив можно найти по ссылке https://docs.docker.com/engine/install/).
-2. Запустите докер (при открытии десктопного клиента engine запускается атоматически).
-3. Клонируйте репозиторий: `git clone [ссылка на репозиторий]`.
-4. Перейдите в папку `deploy`.
-5. Откроите командую строку из этой папки.
-6. Выполните команду `docker compose up -d`.
-7. После того, как все контейнеры запустятся, откройте в браузере ссылку `http://localhost:3000`
-8. В приложении можно запрашивать как единичные прогнозы, так и прогнозировать наборы данных, образец файла заргузки представлен в папке front-end, название файла - example.csv
+    ```bash
+   create_models/create_models_torch_v1.ipynb
+   ```
+   ```bash
+   create_models/create_model_svd_v1.ipynb
+   ```
 
 ## Лицензия
 
-Этот проект доступен для использования в исследовательских целях. Коммерческое использование данных исключено.
+Этот проект доступен для использования в исследовательских целях.
