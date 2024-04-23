@@ -49,7 +49,7 @@
 11. **Формирование рекомендаций модели на тестовых данных**
 12. **Анализ полученных результатов**
 
-[Разработка дизайна AB теста](https://github.com/Bjorik23/peskipiksi_pesternomi/blob/main/mipt_hakaton_2024_tinkoff/create_models/create_models_torch_v2.ipynb)
+[Разработка дизайна AB теста](https://github.com/Bjorik23/peskipiksi_pesternomi/blob/main/mipt_hakaton_2024_tinkoff/ab_test/ab_test_v1.ipynb)
 
 13. **Загрузка данных и обработка**
 14. **Дизайн АБ-теста**
