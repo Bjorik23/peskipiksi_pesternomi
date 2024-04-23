@@ -26,31 +26,38 @@
 
 ## Разделы проекта
 
-[EDA part 1](https://github.com/Bjorik23/peskipiksi_pesternomi/blob/main/mipt_hakaton_2024_tinkoff/analysis/eda_part_1_v2.ipynb)
+[Разведовательный анализ. Часть 1](https://github.com/Bjorik23/peskipiksi_pesternomi/blob/main/mipt_hakaton_2024_tinkoff/analysis/eda_part_1_v2.ipynb)
 1. **Анализ, открытие данных и изучение общей информации по каждой таблице**
 2. **Объединение таблиц и разведовательный анализ**
 
-[EDA part 2](https://github.com/Bjorik23/peskipiksi_pesternomi/blob/main/mipt_hakaton_2024_tinkoff/analysis/eda_part_2_v2.ipynb)
+[Разведовательный анализ. Часть 2](https://github.com/Bjorik23/peskipiksi_pesternomi/blob/main/mipt_hakaton_2024_tinkoff/analysis/eda_part_2_v3.ipynb)
 
 3. **Объединие таблиц в один датасет**
 4. **Обработка полученного датасета**
 5. **Анализ полученного датасета**
 6. **Анализ важности курсов**
 
-[Create models Torch](https://github.com/Bjorik23/peskipiksi_pesternomi/blob/main/mipt_hakaton_2024_tinkoff/create_models/create_models_torch_v1.ipynb)
+[Создание пробной модели с коллаборативной фильтрацией с применением SVD](https://github.com/Bjorik23/peskipiksi_pesternomi/blob/main/mipt_hakaton_2024_tinkoff/create_models/create_model_svd_v1.ipynb)
 
-7. **Объединие таблиц в один датасет**
-8. **Обработка полученного датасета**
-9. **Создание модели с коллаборативной фильтрацией**
-10. **Анализ полученных результатов**
+7. **Подготовка данных и обучение**
 
-[Create models SVD](https://github.com/Bjorik23/peskipiksi_pesternomi/blob/main/mipt_hakaton_2024_tinkoff/create_models/create_model_svd_v1.ipynb)
+[Создание модели с коллаборативной фильтрацией с применением Torch CUDA](https://github.com/Bjorik23/peskipiksi_pesternomi/blob/main/mipt_hakaton_2024_tinkoff/create_models/create_models_torch_v2.ipynb)
 
-11. **Подготовка данных и обучение**
+8. **Объединие таблиц в один датасет**
+9. **Обработка полученного датасета**
+10. **Создание модели с коллаборативной фильтрацией**
+11. **Формирование рекомендаций модели на тестовых данных**
+12. **Анализ полученных результатов**
 
+[Разработка дизайна AB теста](https://github.com/Bjorik23/peskipiksi_pesternomi/blob/main/mipt_hakaton_2024_tinkoff/create_models/create_models_torch_v2.ipynb)
+
+13. **Загрузка данных и обработка**
+14. **Дизайн АБ-теста**
+15. **Анализ групп А и Б**
 
 ## Промежуточные выводы
 
+(ПЕРЕДЕЛАТЬ)
 - Соответствие с анализом важности курсов: В топе рекомендаций есть курсы, соответствующие самым важным направлениям, упомянутым в анализе: 
     - Коммуникативные навыки и этика: Курсы, такие как "Развитие коммуникативных навыков в клиентском обслуживании" и "Этика и профессиональное поведение в клиентском обслуживании", находятся в топе рекомендаций, что соответствует акценту на важность этих навыков в анализе.
 
@@ -69,21 +76,21 @@
 
 - Баланс тем: возможно надо стремиться к балансу между фундаментальными навыками и новыми технологиями, чтобы обеспечить сотрудникам комплексное и актуальное образование.
 
-[Промежуточные результаты по рекомендациям](https://github.com/Bjorik23/peskipiksi_pesternomi/blob/main/mipt_hakaton_2024_tinkoff/data/recomendations/top_n_recommendations.csv)
+[Результаты по рекомендациям](https://github.com/Bjorik23/peskipiksi_pesternomi/blob/main/mipt_hakaton_2024_tinkoff/data/recomendations/top_recomendations.csv)
 
 ## Требования
 
 Проект использует следующие библиотеки Python, которые необходимо установить:
 
 ```bash
-pandas 
-numpy 
-matplotlib 
-seaborn 
-scikit-learn 
-catboost
-causalinference
-torch
+pandas 2.2.2
+numpy 1.26.4
+matplotlib 3.8.4
+seaborn 0.13.2
+scikit-learn 1.0
+dowhy 0.11.1
+causalinference 0.1.3
+torch 2.2.2+cu118
 ```
 
 Установите их, используя pip install или conda install в зависимости от вашего средства управления пакетами.
@@ -98,20 +105,23 @@ torch
    ```
 2. Установите необходимые зависимости:
    ```bash
-   pip install -r requirements.txt (ПОКА НЕТУ)
+   pip install -r requirements.txt
    ```
 3. Запустите Jupyter Notebooks:
     ```bash
    analysis/eda_part_1_v2.ipynb
    ```
    ```bash
-   analysis/eda_part_2_v2.ipynb
+   analysis/eda_part_2_v3.ipynb
    ```
     ```bash
-   create_models/create_models_torch_v1.ipynb
+   create_models/create_models_torch_v2.ipynb
    ```
    ```bash
    create_models/create_model_svd_v1.ipynb
+   ```
+   ```bash
+   ab_test/ab_test_v1.ipynb
    ```
 
 ## Лицензия
