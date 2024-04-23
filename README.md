@@ -8,7 +8,7 @@
 
 | № | Наименование проекта|Сферы деятельности|Навыки и инструменты|Задачи проекта|Ключевые слова проекта|
 |:-:|:-:|:-:|:-:|:-:|:-:|
-| 1 |[Создание рекомендательной системы для EdTech Tinkoff](https://github.com/Bjorik23/peskipiksi_pesternomi/tree/main/mipt_hakaton_2024_tinkoff)|`Рекомендательные системы` `EdTech`|`Python` `Pandas` `Numpy` `Matplotlib` `Plotly` `Sklearn` `Pickle`|Разаботка рекомендательной системы обучающих курсов для сотрудников Tinkoff|предобработка, анализ, временные ряды, классификация, предсказания|
+| 1 |[Создание рекомендательной системы для EdTech Tinkoff](https://github.com/Bjorik23/peskipiksi_pesternomi/tree/main/mipt_hakaton_2024_tinkoff)|`Рекомендательные системы` `EdTech`|`Python` `Pandas` `Numpy` `Matplotlib` `Plotly` `Sklearn` `Causal Inference` `DoWhy` `Torch`|Разаботка рекомендательной системы обучающих курсов для сотрудников Tinkoff|предобработка, анализ, временные ряды, классификация, предсказания|
 
 ---
 
