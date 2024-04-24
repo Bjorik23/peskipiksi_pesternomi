@@ -37,7 +37,7 @@
 5. **Анализ полученного датасета**
 6. **Анализ важности курсов**
 
-[Создание пробной модели с коллаборативной фильтрацией с применением SVD](https://github.com/Bjorik23/peskipiksi_pesternomi/blob/main/mipt_hakaton_2024_tinkoff/create_models/create_model_svd_v1.ipynb)
+[Создание пробной модели с коллаборативной фильтрацией с применением SVD](https://github.com/Bjorik23/peskipiksi_pesternomi/blob/main/mipt_hakaton_2024_tinkoff/create_models/create_model_svd_v2.ipynb)
 
 7. **Подготовка данных и обучение**
 
